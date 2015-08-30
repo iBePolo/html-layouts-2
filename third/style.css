@@ -1,0 +1,61 @@
+.topBar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #333333;
+  height: 104px;
+  width: 1024px;;
+  z-index: 10;
+
+}
+
+.bottomBar {
+  position: absolute;
+  left: 0px;
+
+  background-color: #333333;
+  height: 104px;
+  width: 1024px;
+  z-index: 11;
+
+}
+
+.bigcontainer {
+  left: 0px;
+  background-color: yellow;
+  height: 1192px;
+  width: 1024px;
+}
+
+
+.divleft {
+
+  background-color: purple;
+  width: 450px;
+  height: 100%;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.divright {
+
+  background-color: green;
+  width: 450px;
+  height: 100%;
+  float: right;
+  display: inline-block;
+}
+
+.pg {
+
+  display: block;
+  width: 300px;
+  text-align: center;
+  left: 20px;
+
+}
+
+.pic {
+  width: 200px;
+  height: 200px;
+}

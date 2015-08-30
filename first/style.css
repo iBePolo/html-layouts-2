@@ -1,0 +1,141 @@
+#mainDiv {
+  width: 800px;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+}
+/*#div1 {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  top: 0px;
+  left: 0px;
+  padding-top: 20px;
+}*/
+
+.box {
+  display: inline-block;
+  width: 30%;
+  height: 200px;
+  margin: 1.5%;
+
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.black {
+  background-color: black;
+}
+
+/*.box1 {
+  position: absolute;
+  background-color: red;
+  width: 275px;
+  height: 150px;
+  margin-left: 20px;
+}
+.box2 {
+  position: absolute;
+  background-color: blue;
+  width: 275px;
+  height: 150px;
+  margin-left: 20px;
+  left: 300px;
+}
+
+.box3 {
+  position: absolute;
+  background-color: black;
+  width: 275px;
+  height: 150px;
+  margin-left: 20px;
+  left: 600px;
+  float: right;
+}*/
+
+
+#div2 {
+  background-color: white;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 400px;
+  top: 0px;
+  left: 0px;
+  padding-top: 20px;
+  font-size: 15px;
+  margin: 20px;
+  font-family: "Courier";
+}
+
+#containerflex1 {
+  display: flex;
+  margin: 20px;
+  width: 100%;
+}
+
+.inner {
+  height: 300px;
+  width: 800px;
+  flex: 1;
+}
+.flex1 {
+  background: red;
+}
+.flex2 {
+  background: blue;
+  flex: 2;
+}
+
+#containerflex2 {
+  display: flex;
+  margin: 20px;
+  width: 100%;
+}
+
+.inner2 {
+  height: 150px;
+  width: 800px;
+  flex: 1;
+}
+
+.flexbottom1 {
+  background: blue;
+  flex: 4;
+}
+.flexbottom2 {
+  background: red;
+  flex: 0.5;
+}
+.flexbottom3 {
+  background: black;
+  flex: 2;
+}
+.flexbottom4 {
+  background: red;
+  flex: 0.5;
+}
+
+
+
+
+
+
+/*#circle3 {
+  background: orange;
+  border-radius: 50px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 175px;
+  left: 50px;
+  text-align: center;
+  font-family: "Helvetica";
+  z-index: 200
+}*/
